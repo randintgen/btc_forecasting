@@ -1,0 +1,22 @@
+All notebooks should be run bottom-down. We assume python 3.11 (important to use latest stockstats).
+
+The order to run them is:
+	A) BTC dataset results
+		Trend Prediction:
+			1) trend_prediction_vanilla.ipynb
+			2) trend_prediction_vanilla_dates.ipynb
+			3) trend_prediction_trading.ipynb
+			
+		Price Prediction:
+
+			1) price_prediction_vanilla.ipynb
+			2) price_prediction_vanilla_dates.ipynb
+			3) price_prediction_trading.ipynb
+			
+	B) Tweet sentiment analysis
+		Now run: btc_tweets_exploration.ipynb to export the sentiment analyis dataset.
+	
+	C) Hybrid results
+		Finally run:
+		1) trend_prediction_trading_tweets.ipynb
+		2) price_prediction_trading_tweets.ipynb
